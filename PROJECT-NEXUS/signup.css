@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    background-image: url('sun.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.signup-container {
+    background-color: rgba(173, 216, 230, 0.7); /* Semi-transparent light blue background */
+    border-radius: 15px;
+    overflow: hidden;
+    width: 80%;
+    max-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Center the signup box */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.signup-box {
+    padding: 20px;
+}
+
+.signup-box h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 2px solid #000080; /* Navy blue border color */
+    border-radius: 6px;
+    color: #000; /* Text color */
+    outline: none; /* Remove outline */
+    transition: border-color 0.3s ease; /* Add transition for smooth effect */
+}
+
+.form-control:focus {
+    border-color: #0000CD; /* Highlight border color on focus (a slightly lighter navy blue) */
+}
+
+.signup-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.signup-btn:hover {
+    background-color: #45a049;
+}
+
+.login-option {
+    margin-top: 15px;
+}
+
+.login-link {
+    color: #FFD700; /* Dark yellow color */
+    text-decoration: none;
+}
+
+.login-link:hover {
+    color: #B8860B; /* Darken yellow color on hover */
+}
+/* ... Your existing CSS rules ... */
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 2px solid #000080; /* Navy blue border color */
+    border-radius: 6px;
+    color: #000080; /* Dark blue text color */
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #0000CD; /* Highlight border color on focus (a slightly lighter navy blue) */
+}
+
+/* ... Your existing CSS rules ... */
